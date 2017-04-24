@@ -204,8 +204,8 @@
         
         <plurals name="map_info_window_venue_stars">
             <item quantity="zero">καμία αξιολόγηση</item>
-        <item quantity="one">%1$s/5 αστέρια/item>
-        <item quantity="other">%1$s/5 αστέρια</item>
+            <item quantity="one">%1$s/5 αστέρια</item>
+            <item quantity="other">%1$s/5 αστέρια</item>
         </plurals>
         
         <!-- Venue Add Preview -->
