@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<resources>
+
+    <bool name="isTablet">false</bool>
+    <bool name="is_right_to_left">true</bool>
+	
+    <string name="app_name">أهلاً و سهلاً بالرضاعة</string>
+    <string name="review_option_a">ممنوع التدخين</string>
+    <string name="review_option_b">العاملون متعاونون</string>
+    <string name="review_option_c">مقاعد مريحة </string>
+    <string name="review_option_d">مستوى الضوضاء منخفض</string>
+    
+    <!-- Home Activity -->
+    <string name="home_actionbar_title">الصفحة الرئيسية</string>
+    <string name="home_search_img_txt">إبدأ البحث بالنقر على الخريطة في الأعلى</string>
+    <string name="home_sign_out">تسجيل الخروج</string>
+    <string name="home_register">تسجيل</string>
+    <string name="home_sign_in">تسجيل الدخول</string>
+    <string name="home_logo_description">Home logo</string>
+    <string name="home_image_search_button">أنقر لتبدأ بالبحث على الخارطة</string>
+    <string name="home_header_text">مرحبا</string>
+    <string name="home_share">شارك</string>
+    <string name="version_dialog_header">تحديث مهم متوفر الآن</string>
+    <string name="version_dialog_text">الرجاء تحديث التطبيق الى أحدث نسخة لضمان الحصول على أفضل نتيجة. إضغط على زر التحديث أو قم بزيارة متجر التطبيقات لتحميل التحديث</string>
+    <string name="version_dialog_confirm">تحديث</string>
+    <string name="version_dialog_deny">إلغاء</string>
+
+    <!-- Home Menu -->
+	<string name="home_menu_about">حول</string>
+	<string name="home_menu_sign_in">تسجيل الدخول</string>
+	<string name="home_menu_sign_out">خروج</string>
+	<string name="home_menu_profile">الملف الشخصي</string>
+    
+    <!-- Login Activity -->
+    <string name="login_actionbar_title">سجّل دخولك بإدخال معلوماتك في الأسفل</string>
+    <string name="login_success_login_toast">%1$s تم تسجيل دخولك بنجاح</string>
+    <string name="login_header_text">الرجاء إدخال معلومات حسابك في الأسفل</string>
+    <string name="login_email_textview_hint">أدخل بريدك الالكتروني</string>
+    <string name="login_password_textview_hint">أدخل كلمة المرور</string>
+    <string name="login_forgot_password_button_text">نسيت كلمة المرور</string>
+    <string name="login_submit_button_text">تسجيل الدخول</string>
+
+    <!-- Register Activity -->
+    <string name="register_actionbar_title">سجّل كعضو جديد</string>
+    <string name="register_password_length_validator_text">أدخل كلمة مرور مكوّنة من ٥ رموز على الأقل</string>
+    <string name="register_valid_email_validator_text">الرجاء إدخال بريد الكتروني صالح</string>
+    <string name="register_display_name_length_validator_text">الرجاءإدخال إسم مستخدم مكوّن من ٣ رموز على الاقل</string>
+    <string name="register_success_text">%1$s تم تسجيل عضويتك بنجاح</string>
+    <string name="register_terms">بتسجيلك انت توافق على </string>
+    <string name="register_terms_of_use">شروط الإستخدام</string>
+    <string name="register_privacy_policy">سياسة الخصوصية</string>
+
+    <!-- Register Layout -->
+    <string name="register_header_text">الرجاء ادخال إسم مستخدم و بريد الكتروني و كلمة مرور في الاسفل. إسم المستخدم الذي تختاره سيظهر للمستخدمين الاخرين عندما تترك تعليقا. </string>
+    <string name="register_displayname_hint">أدخل إسم المستخدم</string>
+    <string name="register_email_hint">أدخل بريدك الالكتروني</string>
+    <string name="register_password_hint">أدخل كلمة المرور</string>
+    <string name="register_submit_button_text">تسجيل</string>
+    <string name="register_fullname_hint">(أدخل اسمك الكامل (إختياري)</string>
+    <string name="register_password_reenter_textview_hint">أعد إدخال كلمة المرور</string>
+    <string name="register_password_same_validator_text">كلمتا المرور لا تتطابق. الرجاء إدخال نفس كلمة المرور في كلا الحقلين</string>
+
+    <!-- Forgotten Password Activity -->
+    <string name="forgotten_password_actionbar_title">نسيت كلمة المرور</string>
+    <string name="forgotten_password_header_text">الرجاء إدخال بريدك الالكتروني، سنقوم بإرسال رابط لتغيير كلمة المرور </string>
+    <string name="forgotten_password_hint">أدخل بريدك الالكتروني</string>
+    <string name="forgotten_password_submit_text">أرسل كلمة مرور جديدة</string>
+    <string name="forgotten_password_submit_msg">تم إرسال رسالة تحتوي على رابط لتغيير كلمة المرور الى بريدك الالكتروني</string>
+
+    <!-- Venue -->
+    <string name="venue_actionbar_title">إستعرض المكان</string>
+
+    <plurals name="venue_contributions">
+        <item quantity="zero">لا مساهمات</item>
+        <item quantity="one"> مساهمة   %1$d</item>
+        <item quantity="two">    مساهمة   %1$d   </item>
+        <item quantity="other">مساهمة   %1$d</item>
+        <item quantity="few"> مساهمة   %1$d   </item>
+        <item quantity="many"> مساهمة   %1$d </item>
+
+    </plurals>
+
+    <string name="venue_submit_review">أضف تعليقا</string>
+    <string name="venue_error_text">لم نتمكن من ايجاد المكان المطلوب، قد يكون هناك خطأ</string>
+    <string name="venue_no_reviews_header">ليس هناك اي تعليقات تخص هذا المكان حاليا، لم لا تترك تعليقا للاخرين؟</string>
+    <string name="venue_no_reviews">لا توجد تعليقات حاليا، لم لا تترك انت تعليقا؟</string>
+    <string name="venue_foursquare_logo_description"> foursquare  أنقر هنا لتستعرض هذا المكان على </string>
+    <string name="venue_share_menu_item">شارك هذا المكان</string>
+    <string name="venue_show_on_map">(عرض على الخريطة)</string>
+
+    <!-- Venue Review Item -->
+    <string name="review_actionbar_title">أترك تعليقك في الاسفل</string>
+    <string name="venue_review_username">إسم</string>
+    <string name="venue_review_text">نص التعليق</string>
+    <string name="venue_review_contributions">المساهمات</string>
+
+    <!-- Venue Review Menus -->
+    <string name="venue_review_menu_report">بلّغ عن إساءة</string>
+    <string name="venue_review_reported_toast">تم التبليغ، شكرا لتعاونكم.</string>
+    <string name="venue_review_menu_delete">حذف</string>
+    <string name="venue_review_deleted_toast">تمّ حذف التعليق</string>
+    <string name="venue_review_report_dialog_message">نرجو اخبارنا لماذا قمت بالتبليغ عن هذا التعليق</string>
+    <string name="venue_review_report_dialog_header">مراجعة البلاغ</string>
+    <string name="venue_review_report_dialog_confirm">إرسال</string>
+    <string name="venue_review_report_dialog_cancel">إلغاء</string>
+    <string name="venue_review_unliked_message">حذف الإعجاب</string>
+    <string name="venue_review_liked_toast">أعجبني</string>
+    <string name="venue_review_delete_dialog_message">متأكد انك تريد حذف هذا التعليق؟</string>
+    <string name="venue_review_delete_dialog_header">حذف التعليق</string>
+    <string name="venue_review_delete_dialog_confirm">نعم</string>
+    <string name="venue_review_delete_dialog_cancel">إلغاء</string>
+
+    <plurals name="venue_review_likes_count">
+        <item quantity="zero">إعجاب  %1$s</item>
+        <item quantity="one"> إعجاب  %1$s</item>
+        <item quantity="other">  إعجاب  %1$s </item>
+        <item quantity="few">%1$d إعجاب</item>
+        <item quantity="many">%1$d إعجاب</item>
+        <item quantity="two">%1$d إعجاب</item>
+    </plurals>
+
+    <!-- Review Activity -->
+    <string name="review_venue_header">الرجاء أدخل تعليقك أدناه</string>
+    <string name="review_submit_button_text">إرسال التعليق</string>
+    <string name="review_successful_message">تم حفظ تعليقك</string>
+    <string name="review_ratings_no_rated_header">هل أنت متأكد؟</string>
+    <string name="review_ratings_no_rated_body">لقد قدّمت تقييما يحتوي على ٠ من ٥ نجوم. هل أنت متأكّد من أن هذا التقييم صحيح؟</string>
+    <string name="review_text_length_header">عذرا حصل خطأ</string>
+    <string name="review_text_length_body">لاعطاء الاخرين معلومات أفضل يرجى كتابة تعليق أطول</string>
+    <string name="review_submit_photo_button_text">إضافة صورة</string>
+    <string name="review_review_edittext">أدخل تعليقك هنا</string>
+    <string name="review_review_photo_text">إضافة صورة</string>
+    <string name="review_share_tweet_hashtags">#%1$s</string>
+
+    <!-- Review Photo Dialog -->
+    <string name="review_photo_dialog_header">حذف الصورة</string>
+    <string name="review_photo_dialog_text">هل أنت متأكد أنك تريد حذف هذه الصورة؟</string>
+    <string name="review_photo_dialog_confirm">نعم</string>
+    <string name="review_photo_dialog_cancel">إلغاء</string>
+
+    <!-- Review Submitted Activity -->
+    <string name="review_submitted_header">شكراً لاعطاء رأيك! </string>
+    <string name="review_submitted_body">هل ترغب في مشاركة تعليقك مع الآخرين؟</string>
+    <string name="review_submitted_venue_cancel_button_text">ليس الآن</string>
+    <string name="review_submitted_venue_continue_button_text">أكمِل</string>
+    <string name="review_submitted_venue_confirm_button_text">شارك</string>
+
+    <!-- Add Venue Activity -->
+    <string name="add_venue_actionbar_title">أضف مكانا جديدا أدناه</string>
+    <string name="add_venue_venue_name_validator_text">الرجاء إدخال اسم المكان</string>
+    <string name="add_venue_list_empty_text">ليس في القائمة؟ \ n أدخل اسم المكان وانقر فوق الزر أدناه لإضافة المكان إلى الخريطة</string>
+    <string name="add_venue_add_manual_text">تحديد الموقع على الخريطة</string>
+    <string name="add_venue_search_hint">أدخل إسم المكان هنا</string>
+
+    <!-- Add Venue Menu -->
+    <string name="add_venue_done">تمّ</string>
+
+    <!-- Location picker -->
+    <string name="location_picker_actionbar_title">أضف مكان جديد هنا</string>
+    <string name="location_picker_add_venue_btn"> أضف مكان جديد هنا </string>
+
+    <!-- Add venue preview -->
+    <string name="add_venue_preview_venue_name_edittext_hint">الرجاء إدخال إسم المكان</string>
+    <string name="add_venue_preview_venue_name_validation_length_text">الرجاء إدخال إسم المكان</string>
+
+    <!-- Map list -->
+    <string name="map_list_search_btn">بحث</string>
+    <string name="map_list_header_txt">إبحث هنا عن الأماكن</string>
+    <string name="venues_nearby_list_map_toggle_map">خريطة</string>
+    <string name="venues_nearby_list_map_toggle_list">الأقرب</string>
+
+    <!-- Map Activity -->
+    <string name="map_actionbar_title">أعثرعلى أماكن جديدة قريبة</string>
+    <string name="map_list_map_toggle_map">خريطة</string>
+    <string name="map_list_map_toggle_list">الأقرب</string>
+    <string name="map_add_new_venue_button_text">إضافة</string>
+    <string name="map_search_button_text">بحث</string>
+    <string name="map_geo_search_button_text">بحث</string>
+    <string name="map_geo_search_input_hint">أدخل المدينة أو المكان أو الرمز البريدي</string>
+    <string name="map_dropped_pin_infowindow_text">أضف موقع جديد هنا </string>
+
+    <plurals name="map_places_found">
+        <item quantity="zero">لم يتم العثور على أي أماكن قريبة، لماذا لا تقوم بإضافة مواقع بنفسك؟</item>
+        <item quantity="one">وجد %1$d مكان</item>
+        <item quantity="other">وجد %1$d مكان</item>
+        <item quantity="few">وجد %1$d مكان</item>
+        <item quantity="many">وجد %1$d مكان</item>
+        <item quantity="two">وجد %1$d مكان</item>
+    </plurals>
+    <plurals name="map_places_nearby">
+        <item quantity="zero"> لا أماكن قريبة</item>
+        <item quantity="one"> مكان قريب    %1$d</item>
+        <item quantity="other"> مكان قريب    %1$d  </item>
+        <item quantity="few">%1$d مكان قريب </item>
+        <item quantity="many">%1$d مكان قريب </item>
+        <item quantity="two">%1$d مكان قريب</item>
+    </plurals>
+
+    <string name="map_geo_results_not_found_empty">لا توجد نتائج</string>
+    <string name="map_geo_results_not_found">%1$sلا توجد نتائج ل</string>
+
+    <plurals name="map_info_window_venue_reviews">
+        <item quantity="zero">لا توجد تعليقات</item>
+        <item quantity="one"> %1$d تعليق</item>
+        <item quantity="other">%1$d تعليق</item>
+        <item quantity="few">%1$d تعليق</item>
+        <item quantity="many">%1$d تعليق</item>
+        <item quantity="two">%1$d تعليق</item>
+    </plurals>
+    <plurals name="map_info_window_venue_stars">
+        <item quantity="zero">لا توجد تعليقات</item>
+        <item quantity="one">%1$s / 5 نجوم</item>
+        <item quantity="two">%1$s / 5 نجوم</item>
+        <item quantity="few">%1$s / 5 نجوم</item>
+        <item quantity="many">%1$s / 5 نجوم</item>
+        <item quantity="other">%1$s / 5 نجوم</item>
+    </plurals>
+
+    <!-- Venue Add Preview -->
+    <string name="venue_add_preview">إضافة مكان جديد</string>
+    <string name="venue_add_preview_done">حفظ</string>
+    <string name="add_venue_preview_done_btn">حفظ</string>
+    <string name="venue_add_preview_complete_msg">تم إضافة المكان، الرجاء ترك تعليق</string>
+    
+    <!-- Network Manager -->
+    <string name="connection_problem_header">مشكلة في الإرسال</string>
+    <string name="connection_problem_body"> يبدو أنّه ليس لديك اتصال بالشبكة. يرجى التأكد أنّ خدمة نقل البيّنات مفعّلة أو أنك موصول بالشبكة اللاسلكية. هل ترغب في تغيير إعدادات الإتصال الخاصة بك الآن؟   </string>
+    <string name="location_problem_header">خدمة تحديد المواقع غير مفعلة</string>
+    <string name="location_problem_body">يبدو أن خدمة تحديد المواقع لديك غير مفعلة، هل ترغب بتفعيلها الآن لإيجاد موقعك؟</string>
+    <string name="location_problem_gps_required">لن تكون قادرا على استخدام ميزات الخريطة في هذا التطبيق حتى تقوم بتفعيل إعدادات نظام تحديد المواقع</string>
+    <string name="location_problem_not_found">لم نتمكن من تحديد موقعك ربما لأنك بداخل مبنى. ومع ذلك لا يزال بإمكانك البحث على الخريطة لتحديد مكان وجودك.</string>
+    
+    <!-- Sign up to see more Dialog -->
+    <string name="sign_up_dialog_header"> سجل لمعرفة المزيد! </string>
+    <string name="sign_up_dialog_body">يرجى التسجيل للحصول على مزيد من المعلومات. هل ترغب في تسجيل الآن؟ إذا كان لديك حساب سابق أنقر عل تسجيل الدخول أدناه  </string>
+    <string name="sign_up_dialog_positive_text">حساب جديد</string>
+    <string name="sign_up_dialog_negative_text">تسجيل الدخول</string>
+    <string name="sign_up_dialog_neutral_text">إلغاء</string>
+    
+    <!-- Toast Errors -->
+    <string name="toast_session_timeout_error">يرجى تسجيل الدخول مرة أخرى</string>
+    <string name="toast_general_error">عذرا حصلت مشكلة</string>
+    
+    <!-- Profile -->
+    <string name="profile_review_count_lbl">التعليقات المنشورة</string>
+    <string name="profile_like_count_lbl">الإعجابات</string>
+    <string name="profile_like_count_default">0</string>
+    <string name="profile_review_count_default">0</string>
+    <string name="profile_username"></string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="positive_button_text">موافق</string>
+    <string name="negative_button_text">إلغاء</string>
+    <string name="loading_dialog_header">جاري التحميل</string>
+    <string name="loading_dialog_body"> ... تحميل  </string>
+    <string name="ok_button_text">حسنا</string>
+    <string name="network_error_connection">الرجاء التحقق من اتصالك بالشبكة</string>
+    <string name="network_error_server">عذرا قد تكون هناك مشكلة مع مجهز الخدمة</string>
+    
+    <!-- Share -->
+    <string name="share">شارك عبر</string>
+    <string name="share_venue_msg">مرحبا، وجدت هذا وأعتقد إنه سيعجبك %1$s</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_continue">إستمر</string>
+    <string name="onboarding_page_1_instruction_header">إكتشف</string>
+    <string name="onboarding_page_1_instruction">ابحث في الخريطة عن أماكن الجديدة أومتوفرة سابقا. تحقق من التعليقات والتقييمات والصور االتي شاركها آخرون</string>
+    <string name="onboarding_page_2_instruction_header">ساهم</string>
+    <string name="onboarding_page_2_instruction">يضاف كل شيء في هذا التطبيق من قبل مستخدمين مثلك. إذا لم تكن هناك أي دبابيس في منطقتك، كن أول من يضيف واحداً</string>
+    <string name="onboarding_page_3_instruction_header">شارك</string>
+    <string name="onboarding_page_3_instruction">أخبر أصدقائك وعائلتك عن هذا التطبيق. كلما إستخدمه عدد أكبر من الناس كلما أصبح أكثر فائدة</string>
+    
+    <!-- Survey -->
+    <string name="survey_dismiss">رفض</string>
+    
+    <!-- Update -->
+    <string name="update_header">التحديث متوفر</string>
+    <string name="update_body">  Google Play  بتحديث التطبيق لضمان أن تجري الأمور بسلاسة. للحصول على التحديث أنقر على التحديث أدناه أو قم بزيارة    </string>
+    <string name="update_button_text">حدّث الآن</string>
+    
+    <!-- Demo mode -->
+    <string name="demo_venue_name">الجامعة الأميركية في بيروت</string>
+    <string name="demo_venue_address">American University of Beirut</string>
+    <string name="demo_venue_city">Riad El-Solh</string>
+    <string name="demo_venue_postcode">Beirut</string>
+    <string name="demo_venue_country">Lebanon</string>
+    <string name="demo_reviewer_1_username">إبراهيم</string>
+    <string name="demo_reviewer_1_review_text">هذا المكان رائع حقا. يتمتع الزائر دائما هنا.</string>
+    <string name="demo_reviewer_2_username">سارة</string>
+    <string name="demo_reviewer_2_review_text">هذا المكان رائع حقا. يتمتع الزائر دائما هنا</string>
+    <string name="demo_review_text">هذا المكان رائع حقا. يتمتع الزائر دائما هنا</string>
+
+</resources>
